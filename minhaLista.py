@@ -20,6 +20,21 @@ print("Intervalo de itens sem o item de início:",(minhaLista[-3:-1]))
 minhaLista[3] = "Francine"
 print("Lista com valor do item alterado: ",minhaLista)
 
+#Percorrer a lista
 for i in minhaLista:
     print("Item da lista:", i)
+
+#Condição positiva
+print("Julia está na lista?")
+if "Julia" in minhaLista:
+    print("Sim, está!")
+else:
+    print("Não está!")
+
+#Condição negativa
+print("Gabriel está na lista?")
+if "Gabriel" in minhaLista:
+    print("Sim, está!")
+else:
+    print("Não está!")
     
