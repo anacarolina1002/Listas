@@ -20,4 +20,6 @@ print("Intervalo de itens sem o item de início:",(minhaLista[-3:-1]))
 minhaLista[3] = "Francine"
 print("Lista com valor do item alterado: ",minhaLista)
 
-
+for i in minhaLista:
+    print("Item da lista:", i)
+    
